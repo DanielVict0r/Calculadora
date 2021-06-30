@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora_básica.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="calculadora_básica.js"></script>
+
+
+    <form name="calc" class="calc">
+       <input type="text" name="visor" id="visor">
+      <div>
+       <input type="button" class="botao" value="7" onclick="botao(value);">
+       <input type="button" class="botao" value="8" onclick="botao(value);">
+       <input type="button" class="botao" value="9" onclick="botao(value);">
+       <input type="button" class="botao" value="/" onclick="calcule('divisao');">
+      </div>
+       <div>
+       <input type="button" class="botao" value="4" onclick="botao(value);">
+       <input type="button" class="botao" value="5" onclick="botao(value);">
+       <input type="button" class="botao" value="6" onclick="botao(value);">
+       <input type="button" class="botao" value="*" onclick="calcule('multiplicacao');">
+       </div>
+        <div>
+       <input type="button" class="botao" value="1" onclick="botao(value);">
+       <input type="button" class="botao" value="2" onclick="botao(value);">
+       <input type="button" class="botao" value="3" onclick="botao(value);">
+       <input type="button" class="botao" value="-" onclick="calcule('subtracao');">
+       </div>
+       <div>
+       <input type="button" class="botao" value="0" onclick="botao(value);">
+       <input type="button" class="botao" value="=" onclick="calcule('resultado');">
+       <input type="button" class="botao" value="C" onclick="limpar();">
+       <input type="button" class="botao" value="+" onclick="calcule('adicao');">
+       </div>
+       <div>
+       <input type="button" class="botao" value="."  onclick="botao(value);">
+       <input type="button" class="botao" value=">>" onclick="voltar();">
+      </div>
+    </form>
+</body>
+</html>

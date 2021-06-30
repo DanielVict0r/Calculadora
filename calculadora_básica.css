@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(90deg, #c7d4e9 0%, #6ea8ff 100%);
+    height: 98vh;
+    width: 100vw;
+}
+
+#visor{
+    height: 60px;
+    margin-bottom: 16px;
+    border-radius: 9px;
+    border: none;
+    width: 240px;
+    font-size: 26px;
+}
+
+.calc
+{
+    border-radius: 9px;
+    position: absolute;
+    background-color: rgba(110, 166, 250, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    
+}
+
+.botao:hover{
+    background-color: rgb(164, 201, 255);;
+}
+
+
